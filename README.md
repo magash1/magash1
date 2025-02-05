@@ -37,7 +37,7 @@ def echo(update: Update, context: CallbackContext) -> None:
 def main() -> None:
     # Создаем Updater и передаем ему токен вашего бота
     updater = Updater(TOKEN)
-
+7690435037:AAH0DfEy7YSjSv_02qKWC1ywWUgcdlDK4Uc
     # Получаем диспетчер для регистрации обработчиков
     dispatcher = updater.dispatcher
 
