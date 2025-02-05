@@ -34,7 +34,7 @@ def echo(update: Update, context: CallbackContext) -> None:
         update.message.reply_text("Извините, я не понимаю. Попробуйте написать что-то другое.")
 
 # Основная функция для запуска бота
-def main() -> None:
+def main() -> None: 'Старт'
     # Создаем Updater и передаем ему токен вашего бота
     updater = Updater(TOKEN)
 7690435037:AAH0DfEy7YSjSv_02qKWC1ywWUgcdlDK4Uc
@@ -49,10 +49,10 @@ def main() -> None:
     dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, echo))
 
     # Запускаем бота
-    updater.start_polling()
+    updater.start_polling()Start
 
     # Работаем до тех пор, пока не будет нажата комбинация Ctrl+C
-    updater.idle()
+    updater.idle()Go
 
 if __name__ == '__main__':
     main()![IMG-20250127-WA0021](https://github.com/user-attachments/assets/e5088c76-750b-4e00-9d5c-6a1740c5de0c)
