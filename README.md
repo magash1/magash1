@@ -2,7 +2,7 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # Токен вашего бота
-TOKEN = 'ВАШ_ТОКЕН_ЗДЕСЬ'
+TOKEN = '7690435037:AAH0DfEy7YSjSv_02qKWC1ywWUgcdlDK4Uc'
 
 # Функция для обработки команды /start
 def start(update: Update, context: CallbackContext) -> None:
